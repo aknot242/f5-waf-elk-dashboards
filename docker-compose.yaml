@@ -1,7 +1,7 @@
 version: "2.4"
 services:
   elasticsearch:
-    image: sstarzh/elk:latest
+    image: isclab/elk:latest
     restart: always
     volumes:
       - ./logstash/conf.d:/etc/logstash/conf.d:ro
