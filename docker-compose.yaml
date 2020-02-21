@@ -12,3 +12,6 @@ services:
     - "5144:5144"
 volumes:
   elk:
+networks:
+    default:
+        enable_ipv6: false
